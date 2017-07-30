@@ -13,7 +13,7 @@ import org.springframework.stereotype.Component;
 
 /**
  * @category 手动添加需要注入的对象
- * @author MegaX
+ * 
  *
  */
 @Component

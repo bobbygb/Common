@@ -8,7 +8,7 @@ import javax.sql.DataSource;
 import java.text.SimpleDateFormat;
 
 /**
- * Created by MegaX on 2017/1/4.
+ * 
  */
 public class JdbcTemplateTimeFix extends JdbcTemplate {
     private static final SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss.SSS");

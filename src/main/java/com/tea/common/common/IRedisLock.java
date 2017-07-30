@@ -2,7 +2,6 @@ package com.tea.common.common;
 
 /**
  * @category redis分布式锁，这个应用于非重要业务上，但也需要全局锁来实现
- * @author MegaX
  *
  */
 public interface IRedisLock {

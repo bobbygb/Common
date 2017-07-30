@@ -6,7 +6,7 @@ import java.util.Hashtable;
 import java.util.StringTokenizer;
 
 /**
- * Created by MegaX on 2016/11/21.
+ * 
  */
 public class HttpUtils {
     public static Hashtable<String, String[]> parseQueryString(String s) {

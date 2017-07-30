@@ -7,7 +7,7 @@ import java.lang.reflect.Field;
 import java.lang.reflect.Method;
 
 /**
- * Created by MegaX on 2017/1/11.
+ * 
  */
 public class ClassProxy {
     public static InvocationHandler getInvocationHandler(Object proxy) {

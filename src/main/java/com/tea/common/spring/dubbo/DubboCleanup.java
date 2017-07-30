@@ -28,7 +28,7 @@ import java.util.concurrent.ScheduledExecutorService;
 import java.util.concurrent.ScheduledThreadPoolExecutor;
 
 /**
- * Created by MegaX on 2016/10/17.
+ *
  */
 public final class DubboCleanup {
     private static Log log = LogFactory.getLog(DubboCleanup.class);

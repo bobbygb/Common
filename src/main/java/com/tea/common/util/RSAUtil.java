@@ -11,7 +11,7 @@ import javax.crypto.IllegalBlockSizeException;
 import javax.crypto.NoSuchPaddingException;
 /**
  * @category RSA加密类
- * @author MegaX
+ * 
  *
  */
 public class RSAUtil {

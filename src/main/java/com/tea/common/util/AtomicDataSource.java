@@ -14,7 +14,6 @@ import com.tea.common.base.utils.ReflectUtil;
 
 /**
  * @category 自动配置数据源
- * @author megax
  *
  */
 public class AtomicDataSource implements DataSource {

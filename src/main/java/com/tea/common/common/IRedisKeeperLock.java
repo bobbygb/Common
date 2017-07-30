@@ -2,7 +2,6 @@ package com.tea.common.common;
 
 /**
  * @category 永久锁,不会超时结束，除非是解锁或程序结束
- * @author MegaX
  *
  */
 public interface IRedisKeeperLock {

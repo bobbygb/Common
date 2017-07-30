@@ -7,7 +7,6 @@ import com.tea.common.common.rabbitmq.exception.RepeatedDefinitionListenerExcept
 
 /**
  * @category rabbitmq基础服务
- * @author MegaX
  *
  */
 public interface IRabbitMqService {

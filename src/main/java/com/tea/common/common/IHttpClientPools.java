@@ -7,7 +7,6 @@ import org.apache.http.client.ClientProtocolException;
 import org.apache.http.client.methods.HttpUriRequest;
 /**
  * @category http请求连接池，用于高效的请求http
- * @author MegaX
  *
  */
 public interface IHttpClientPools {

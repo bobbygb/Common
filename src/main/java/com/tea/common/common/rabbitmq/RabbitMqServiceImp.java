@@ -31,7 +31,6 @@ import org.springframework.transaction.support.TransactionSynchronizationManager
 
 /**
  * @category mq核心服务
- * @author MegaX
  *
  */
 public abstract class RabbitMqServiceImp implements IRabbitMqService {

@@ -1,7 +1,7 @@
 package com.tea.common.loader;
 
 /**
- * Created by MegaX on 2017/1/9.
+ * 
  */
 public class CustomerSetting {
     public static final String localWindowsConfigName = "d:/config.properties";

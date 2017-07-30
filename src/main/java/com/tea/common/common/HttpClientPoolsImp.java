@@ -29,7 +29,6 @@ import com.tea.common.base.utils.StringUtils;
 import com.tea.common.xnex.CloseEx;
 /**
  * @category http请求连接池实现
- * @author MegaX
  *
  */
 @Repository

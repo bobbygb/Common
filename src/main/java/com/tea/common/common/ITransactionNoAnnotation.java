@@ -4,7 +4,6 @@ import org.springframework.transaction.annotation.Propagation;
 
 /**
  * @category 手动支持事务，非代码注解
- * @author MegaX
  *
  */
 public interface ITransactionNoAnnotation {

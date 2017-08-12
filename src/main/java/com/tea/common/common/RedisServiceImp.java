@@ -10,7 +10,6 @@ import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
-import javax.annotation.PostConstruct;
 
 import org.apache.commons.lang3.StringUtils;
 import org.apache.commons.logging.Log;
@@ -221,26 +220,26 @@ public class RedisServiceImp implements IRedisService {
 	
 	
 	public static void main(String[] args) throws Exception {
-//		RedisServiceImp imp = new RedisServiceImp();
-//		imp.closeEx = new CloseEx();
-//		imp.init();
-//		imp.initRedis("redis-sentinel://172.20.30.101:26379,172.20.30.102:26379", "themaster", 1, 2000);
-//	
-//		String s = imp.get("A1");
-//		System.out.println(s);
-//		imp.set("A1", "333");
-//
-//		s = imp.get("A1");
-//		System.out.println(s);
-//
+		
+//		String redisUrl = "redis-cluster://192.168.1.103:7000,192.168.1.103:7001,192.168.1.103:7002,192.168.1.103:7003,192.168.1.103:7004,192.168.1.103:7005";
+//		Set<HostAndPort> nodes = RedisHostAndPortUtil.getAddresses(redisUrl.substring("redis-cluster://".length()));
+//		JedisCluster client = new JedisCluster(nodes,5000,5);
 //		
-//		imp.close2();
+//		client.set("A1", "333");
+//		String s = client.get("A1");
+//		System.out.println(s);	
+//		client.close();
 		
+//		for(int i=7000; i<7006; i++){
+//			Jedis redis = new Jedis("192.168.1.103",i);
+//			System.out.println(i + ":" + redis.ping());
+//			redis.close();
+//		}
 		
-		
+				
 		AnnotationConfigWebApplicationContext app = new AnnotationConfigWebApplicationContext();
 		String appId = "123232";
-		String AppName = "test";
+		String AppName = "Common";
 		String zooKeeperUrl = "192.168.1.103:2181";
 		String zooKeeperRootPath = "/AppConfig/tea";
 		String packageName = "com.tea.common";
@@ -271,7 +270,7 @@ public class RedisServiceImp implements IRedisService {
 		IRedisService imp = app.getBean(IRedisService.class);
 		String s = imp.get("A1");
 		System.out.println(s);
-		imp.set("A1", "333");
+		imp.set("A1", "444");
 
 		s = imp.get("A1");
 		System.out.println(s);

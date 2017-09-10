@@ -10,7 +10,7 @@ public class RabbitmqTest {
    private static final String QUEUE_NAME = "hello";
    
    public static void main(String [] args) throws Exception{
-	   ConnectionFactory factory = new ConnectionFactory();
+	 /*  ConnectionFactory factory = new ConnectionFactory();
 	   factory.setHost("192.168.1.103");
 	   factory.setPort(5672);
 	   factory.setUsername("admin");
@@ -25,7 +25,7 @@ public class RabbitmqTest {
 	   System.out.println("sent msg:" + msg);
 	   
 	   channel.close();
-	   conn.close();
+	   conn.close();*/
 	   
 	   ConnectionFactory factory = new ConnectionFactory();  
 	   
